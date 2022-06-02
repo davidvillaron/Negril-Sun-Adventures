@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Jura:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-area {
+  background-image: url(/img/hero_image.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: right;
+  background-size: cover;
+}
+
+.nav-border-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(7, 68, 74, 54%);
+  height: 120px;
+  width: 100%;
+}
+.nav-logo {
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.navi-links {
+  display: flex;
+  gap: 120px;
+  align-items: center;
+  padding-right: 25px;
+}
+
+ul li a{
+  color: #fff;
+  font-size: 1.5em;
+  font-family: 'Jura', sans-serif;
+  font-weight: bolder;
+}
+@media only screen and (min-width: 751px) and (max-width: 1150px){
+  ul li a{
+    font-size: 1em;
+  }
+}
+/* main center comp img */
+.img-ct-wrapper {
+  height: 80vh;
+  display: grid;
+  place-items: center;
+}
+.NSA-ct-img {
+  max-width: 90%;
+}
+
+
+/* <!-- glass bottom boat section --> */
+.boat-sec-container {
+  display: flex;
+  margin-top: 85px;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+#glass-bottom {
+  margin-left: 5px;
+  flex-shrink: 1;
+  flex: 0 1 200px;
+  width: 100%;
+
+}
+.card-descr {
+  display: flex;
+  flex: 1 1 250px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 55px;
+}
+.card-descr h1 {
+  font-family: 'Jura', sans-serif;
+  font-weight: bold;
+  margin: 25px 0;
+}
+.card-descr p {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 51em;
+  
+}
+
+
+/* <!-- grid 3 card events descr --> */
+.card-grid-sec {
+  margin-top: 185px;
+}
+.events-tag {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4em;
+  font-weight: 800;
+}
+.card-wrappers {
+  
+  display: grid;
+  gap: 1.4rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+.card-img {
+  display: flex;
+  flex-direction: column;
+  padding: 65px 0 ;
+}
+.grid-images {
+  box-shadow: 10px 15px 5px #aaaaaa;
+}
+.card-img h2 {
+  padding: 20px 0;
+  font-family: 'Jura', sans-serif;
+  font-weight: bolder;
+}
+.card-img h3 {
+  font-family: 'Jura', sans-serif;
+  padding: 15px 0;
+}
+.card-img p {
+  font-family: 'Montserrat', sans-serif;
+}
+@media only screen and (max-width: 585px ){
+  .card-img h2, .card-img h3, .card-img p{
+    margin: 0 22px;
+  }
+}
+
+
+/* footer section */
+.footer-banner{
+  background-color: #255C08;
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-logo {
+  width: 225px;
+  height: auto;
+}
+.contact-wrapper {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-wrapper p{
+  color: #fff;
+  padding: 10px 0 ;
+}
+
+.menu-icon {
+  display: none;
+}
+.phone-icon {
+  height: 28px;
+}
+.email-icon {
+  height: 20px;
+  padding-right: 5px;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+  .nav-bar {
+    padding: 0;
+  }
+  .menu-icon {
+    height: 22px;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 12;
+    display: block;
+
+  }
+  .nav-logo {
+    position: absolute;
+    top: 20px;
+    left: 31%;
+    z-index: 15;
+    height: 100px;
+  }
+
+  .navi-links {
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    background: #255C08;
+    z-index: 10;
+    margin-top: -999px;
+    transition: all 0.1s ease;
+
+  }
+  .mobile-dropdown {
+    margin-top: 0px;
+  }
+  .navi-links li {
+    margin: 10px 15px;
+  }
+
+  .footer-banner {
+    flex-wrap: wrap;
+    padding: 50px;
+    height: 80vh;
+  }
+  .contact-wrapper {
+    padding-top: 100px;
+  }
+  .grid-images {
+    margin: 0 22px;
+  }
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="203" height="188" viewBox="0 0 203 188">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="203" height="188" transform="translate(40.347 0.02)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-40.347 -0.02)" clip-path="url(#clip-path)">
+    <g id="client_logo" transform="translate(62.763 38.89)">
+      <path id="Path_1" data-name="Path 1" d="M107.866,58.131C106.561,33.9,87.386,14.666,63.918,14.666S21.278,33.9,19.97,58.131Z" transform="translate(18.981 13.94)" fill="#f2bb30"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="4.721" height="24.163" rx="1.065" transform="translate(81.653)" fill="#f2bb30"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="4.721" height="24.163" rx="1.065" transform="translate(52.509 7.132) rotate(-27.19)" fill="#f2bb30"/>
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="4.721" height="24.162" rx="1.065" transform="matrix(0.702, -0.712, 0.712, 0.702, 32.091, 21.67)" fill="#f2bb30"/>
+      <rect id="Rectangle_6" data-name="Rectangle 6" width="4.721" height="24.162" rx="1.065" transform="translate(16.456 45.209) rotate(-75.44)" fill="#f2bb30"/>
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="4.721" height="24.163" rx="1.065" transform="matrix(0.026, -1, 1, 0.026, 10.496, 69.121)" fill="#f2bb30"/>
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="4.721" height="24.163" rx="1.065" transform="translate(105.127 28.897) rotate(-152.81)" fill="#f2bb30"/>
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="4.721" height="24.162" rx="1.065" transform="matrix(-0.702, -0.712, 0.712, -0.702, 119.368, 38.907)" fill="#f2bb30"/>
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="4.721" height="24.162" rx="1.065" transform="translate(128.836 51.566) rotate(-104.56)" fill="#f2bb30"/>
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="4.721" height="24.163" rx="1.065" transform="matrix(-0.026, -1, 1, -0.026, 134.013, 70.02)" fill="#f2bb30"/>
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="4.305" height="80.958" rx="1.104" transform="translate(123.034 92.901) rotate(90)" fill="#f2bb30"/>
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="4.444" height="69.155" rx="1.037" transform="translate(117.758 99.15) rotate(90)" fill="#f2bb30"/>
+      <rect id="Rectangle_14" data-name="Rectangle 14" width="4.027" height="57.907" rx="0.903" transform="translate(112.481 106.232) rotate(90)" fill="#f2bb30"/>
+      <text id="NEGRILSUN_ADVENTURES" data-name="NEGRILSUN ADVENTURES" transform="translate(0 89.278)" font-size="14" font-family="Magion"><tspan x="0" y="0">NEGRILSUN ADVENTURES</tspan></text>
+    </g>
+  </g>
+</svg>
