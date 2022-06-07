@@ -13,6 +13,7 @@
   background-image: url(/img/hero_image.png);
   background-repeat: no-repeat;
   height: 100vh;
+  width: auto;
   background-position: right;
   background-size: cover;
 }
@@ -67,7 +68,7 @@ ul li a{
   
 }
 #glass-bottom {
-  margin-left: 5px;
+  margin-left: 25px;
   flex-shrink: 1;
   flex: 0 1 200px;
   width: 100%;
@@ -96,11 +97,34 @@ ul li a{
 .card-grid-sec {
   margin-top: 185px;
 }
+.events-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 10vh;
+  margin-bottom: 5%;
+}
+.ev-left {
+  width: 50%;
+  border-bottom: #05407E solid 5px;
+  margin-left: 100px;
+  margin-right:45px;
+  align-self: center;
+  box-shadow: 2px 3px 4px #aaaaaa;
+}
+.ev-right {
+  width: 50%;
+  border-bottom: #05407E solid 5px;
+  margin-right: 100px;
+  margin-left: 45px;
+  align-self: center;
+  box-shadow: 2px 3px 4px #aaaaaa;
+}
 .events-tag {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.4em;
-  font-weight: 800;
+  font-size: 1.3em;
+  font-weight: 600;
 }
 .card-wrappers {
   
@@ -138,7 +162,7 @@ ul li a{
 /* footer section */
 .footer-banner{
   background-color: #255C08;
-  height: 350px;
+  height: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -166,7 +190,12 @@ ul li a{
   height: 20px;
   padding-right: 5px;
 }
-
+.jamaica-contact-bx {
+  margin: 10% 0;
+}
+.us-contact-bx {
+  margin-bottom: 20px;
+}
 
 
 @media only screen and (max-width: 750px) {
@@ -214,12 +243,25 @@ ul li a{
   .footer-banner {
     flex-wrap: wrap;
     padding: 50px;
-    height: 80vh;
+    height: 100vh;
+    width: auto;
   }
   .contact-wrapper {
     padding-top: 100px;
   }
   .grid-images {
     margin: 0 22px;
+  }
+  
+}
+@media only screen and (max-width: 450px) {
+  .ev-left, .ev-right {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 609px) {
+  .jamaica-contact-bx {
+    padding-bottom: 75px;
   }
 }
