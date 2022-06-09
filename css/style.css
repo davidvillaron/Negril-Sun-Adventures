@@ -10,12 +10,13 @@
 }
 
 .hero-area {
-  background-image: url(/img/hero_image.png);
+  background-image: url(../img/hero_image.png);
   background-repeat: no-repeat;
   height: 100vh;
   width: auto;
   background-position: right;
   background-size: cover;
+  
 }
 
 .nav-border-bar {
@@ -62,17 +63,21 @@ ul li a{
 /* <!-- glass bottom boat section --> */
 .boat-sec-container {
   display: flex;
-  margin-top: 85px;
+  margin: 85px 40px;
   justify-content: center;
   flex-wrap: wrap;
   
 }
 #glass-bottom {
-  margin-left: 25px;
+  margin-left: 10%;
   flex-shrink: 1;
   flex: 0 1 200px;
   width: 100%;
-
+}
+@media only screen and (min-width: 600px)  and (max-width: 915px) {
+  #glass-bottom {
+    padding: 0 15px
+  }
 }
 .card-descr {
   display: flex;
@@ -167,6 +172,7 @@ ul li a{
   justify-content: space-evenly;
   align-items: center;
 }
+
 .footer-logo {
   width: 225px;
   height: auto;
@@ -263,5 +269,12 @@ ul li a{
 @media only screen and (max-width: 609px) {
   .jamaica-contact-bx {
     padding-bottom: 75px;
+  }
+}
+
+/* Microsoft Edge */
+@supports (-ms-ime-align:auto) {
+  .footer-banner {
+    background-color: aqua;
   }
 }
