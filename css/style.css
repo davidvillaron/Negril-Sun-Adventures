@@ -40,13 +40,14 @@
 
 ul li a{
   color: #fff;
-  font-size: 1.5em;
-  font-family: 'Jura', sans-serif;
-  font-weight: bolder;
+  font-size: 2em;
+  font-family: alkaline-caps,'Jura', sans-serif;
+  font-weight: 800;
 }
 @media only screen and (min-width: 751px) and (max-width: 1150px){
   ul li a{
-    font-size: 1em;
+    font-size: 1.45em;
+    font-weight: 600;
   }
 }
 /* main center comp img */
