@@ -231,7 +231,7 @@ ul li a{
   .navi-links {
     flex-direction: column;
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     background: #255C08;
@@ -270,12 +270,5 @@ ul li a{
 @media only screen and (max-width: 609px) {
   .jamaica-contact-bx {
     padding-bottom: 75px;
-  }
-}
-
-/* Microsoft Edge */
-@supports (-ms-ime-align:auto) {
-  .footer-banner {
-    background-color: aqua;
   }
 }
